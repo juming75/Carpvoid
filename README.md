@@ -1,41 +1,37 @@
-# Welcome to Void.
+# Welcome to CarpVoid.
 
 <div align="center">
 	<img
 		src="./src/vs/workbench/browser/parts/editor/media/slice_of_void.png"
-	 	alt="Void Welcome"
+	 	alt="Carpvoid Welcome"
 		width="300"
 	 	height="300"
 	/>
 </div>
+# Carpvoid 🐟
 
-Void is the open-source Cursor alternative.
+**CarpVoid is the open-source Cursor alternative.The active, community-driven fork of Void. Empowering developers with Spec Mode and continuous maintenance.**
 
-Use AI agents on your codebase, checkpoint and visualize changes, and bring any model or host locally. Void sends messages directly to providers without retaining your data.
+> **Status:** Void IDE has paused development. Carpvoid picks up the torch to keep the open-source AI IDE ecosystem alive, bringing you new features like **Spec Mode** (inspired by Kiro) and regular bug fixes.
+---
+### 🚀 Why Carpvoid?
+While the original Void IDE was an excellent open-source alternative to Cursor, its development has been paused. **Carpvoid** is here to fill that gap.
 
-This repo contains the full sourcecode for Void. If you're new, welcome!
+- **Active Maintenance:** We continue to fix bugs, update dependencies, and ensure compatibility with the latest AI models.
+- **Spec Mode:** We integrate a "Specification-First" workflow, allowing you to plan complex features before writing code, reducing hallucinations and errors.
+- **Privacy First:** Like Void, your code stays on your machine. We connect directly to model providers (OpenAI, Anthropic, Ollama, etc.) without retaining your data.
+- **Open Source:** Fully open-source under the Apache 2.0 License.
+---
+### 🛠️ Getting Started
+*(Note: Since Carpvoid is a fork of the Void codebase, the build process is similar. Please update these steps if your build process differs.)*
 
-- 🧭 [Website](https://voideditor.com)
+#### Prerequisites
+- Node.js (v18 or higher)
+- pnpm
+- Python (for some native modules)
 
-- 👋 [Discord](https://discord.gg/RSNjgaugJs)
-
-- 🚙 [Project Board](https://github.com/orgs/voideditor/projects/2)
-
-
-## Note
-
-We've paused work on the Void IDE (this repo) to explore a few novel coding ideas. We want to focus on innovation over feature-parity. Void will continue running, but without maintenance some existing features might stop working over time. Depending on the direction of our new work, we might not resume Void as an IDE.
-
-We won't be actively reviewing Issues and PRs, but we will respond to all [email](mailto:hello@voideditor.com) inquiries on building and maintaining your own version of Void while we're paused. 
-
-## Reference
-
-Void is a fork of the [vscode](https://github.com/microsoft/vscode) repository. For a guide to the codebase, see [VOID_CODEBASE_GUIDE](https://github.com/voideditor/void/blob/main/VOID_CODEBASE_GUIDE.md).
-
-For a guide on how to develop your own version of Void, see [HOW_TO_CONTRIBUTE](https://github.com/voideditor/void/blob/main/HOW_TO_CONTRIBUTE.md) and [void-builder](https://github.com/voideditor/void-builder).
-
-
-
-
-## Support
-You can always reach us in our Discord server or contact us via email: hello@voideditor.com.
+#### Installation
+. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/Carpvoid.git
+   cd Carpvoid
